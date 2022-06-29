@@ -3,114 +3,49 @@
     padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@500&family=Roboto:wght@500&display=swap');
-body{
-    overflow-x: hidden;
-}
-/* navbar */
-nav{
-    margin: 50px 40px;
-    font-family: 'Robot', sans-serif;
-    display: flex;
-    justify-content: space-between;
-}
 
-nav ul {
+/* navbar */
+#nabar{
+    margin: 30px 80px;
     display: flex;
-    list-style: none;
-    width: 20%;
-    justify-content: space-between;
 }
-nav ul li a {
+#logo{
+    margin-right: auto;
+}
+.navbar-brand{
+    font-family: 'Roboto',sans-serif;
+}
+#navbarNav{
+    margin-right: auto;
+    font-family: 'roboto',sans-serif;
+}
+#tag{
+    width: max-content;
+    height: max-content;
+}
+#tag{
+    margin: 0;
+    padding: 0;
+}
+#tag1 h1{
+    z-index: 1;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: rotate(90deg); 
+    transform-origin: 0 ; 
+    color: rgba(0, 0, 0,0.1);
+    margin-left: 10px;
+}
+#tag2{
+    margin-left: 60px;
+}
+#tag2 a{
     text-decoration: none;
     color: black;
 }
-nav ul li a :hover{
-    color: #6B6863;
+.logo{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
 }
-/* navbar */
-
-/* menu garis 3 / hamburger menu */
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 15px;
-    position: relative;
-}
-
-.menu-toggle input {
-    position: absolute;
-    width: 40px;
-    height: 28px;
-    left: -6px;
-    top: -6px;
-    opacity: 0;
-    cursor: pointer;
-    z-index: 2;
-}
-
-.menu-toggle span{
-    display: block;
-    width: 28px;
-    height: 3px;
-    background-color: black;
-    border-radius: 3px;
-    transition: all 0.5s;
-}
-
-
-/* animasi menu burger */
-.menu-toggle span:nth-child(2){
-    transform-origin: 0 100%;
-}
-
-.menu-toggle span:nth-child(4){
-    transform-origin: 0 100%;
-}
-
-.menu-toggle input:checked ~ span:nth-child(2){
-    transform: rotate(45deg) translate(-2px, -2px);
-}
-
-.menu-toggle input:checked ~ span:nth-child(4){
-    transform: rotate(-45deg) translate(-1px, 4px);
-}
-.menu-toggle input:checked ~ span:nth-child(3){
-    transform: scale(0);
-}
-
-/* Responsive */
-
-/* ukuran tablet */
-@media  screen and (max-width: 768px) {
-    nav ul{
-        width: 30%;
-    }
-}
-@media  screen and (max-width: 576px) {
-    .menu-toggle{
-        display: flex;
-    }
-    nav ul{
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 100vh;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.3) ;
-        z-index: -1;
-        transform: translateX(100%);
-        transition: all 1s;
-    }
-    nav ul li a{
-        color: white;
-    }
-    nav ul.slide{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-

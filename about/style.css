@@ -1,0 +1,21 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@500&family=Roboto:wght@500&display=swap');
+
+/* navbar */
+#nabar{
+    margin: 30px 80px;
+    display: flex;
+}
+#logo{
+    margin-right: auto;
+}
+.navbar-brand{
+    font-family: 'Roboto',sans-serif;
+}
+#navbarNav{
+    margin-right: auto;
+    font-family: 'roboto',sans-serif;
+}
