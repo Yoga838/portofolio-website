@@ -9,6 +9,11 @@
     margin: 30px 80px;
     display: flex;
 }
+@media (max-width:576px){
+    #nabar {
+        margin: 30px 40px;
+    }
+}
 #logo{
     margin-right: auto;
 }
