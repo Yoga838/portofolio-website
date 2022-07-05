@@ -87,6 +87,9 @@ body.dark h4, body.dark p {
 
 
 /*content*/
+.container{
+    padding-bottom: 40px;
+}
 #tag1 h1{
     z-index: 1;
     font-size: 3rem;
@@ -100,7 +103,7 @@ body.dark h4, body.dark p {
 #tag2{
     margin-left: 60px;
 }
-#tag2 a, p, h1{
+#tag2 a, p, h1,h5{
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -109,3 +112,37 @@ body.dark h4, body.dark p {
     display: flex;
     gap: 15px;
 }
+
+/*content*/
+.header-timeline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.timeline{
+    border-left: 3px solid #FFFFFF;
+    padding-left: 25px;
+}
+.dot1{
+    margin-left: -34px;
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #041C32;
+    border: 3px solid #FFFFFF;
+    border-radius: 50% ;
+}
+.dot2{
+    margin-left: -34px;
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #041C32;
+    border: 3px solid #FFFFFF;
+    border-radius: 50% ;
+}
+

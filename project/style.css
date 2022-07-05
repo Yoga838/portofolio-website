@@ -7,12 +7,6 @@
 body{
     cursor: none;
 }
-body.dark{
-    background-color: black;
-}
-body.dark h4, body.dark p {
-    color: white;
-}
 /* navbar */
 #nabar{
     margin: 30px 80px;
