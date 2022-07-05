@@ -4,10 +4,20 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter:wght@500&family=Roboto:wght@500&display=swap');
 
+body{
+    cursor: none;
+}
+body.dark{
+    background-color: black;
+}
+body.dark h4, body.dark p {
+    color: white;
+}
 /* navbar */
 #nabar{
     margin: 30px 80px;
     display: flex;
+    cursor: none;
 }
 @media (max-width:576px){
     #nabar {
@@ -24,3 +34,48 @@
     margin-right: auto;
     font-family: 'roboto',sans-serif;
 }
+
+
+/*animation*/
+.hidden {
+    opacity:0;
+}
+.console-container {
+    font-family:'Roboto',sans-serif;
+    font-size:2em;
+    text-align:left;
+    color:white;
+    font-weight: bolder;
+}
+.console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+}
+/*cursor animation*/
+ .cursor0{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+}
+ .cursor1{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+ }
+/*cursor animation*/
