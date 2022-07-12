@@ -6,6 +6,7 @@
 
 body{
     cursor: none;
+    background-color: #041C32;
 }
 /* navbar */
 #nabar{
@@ -52,7 +53,7 @@ body{
     position: fixed;
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     border-radius: 50%;
     left: 0;
     top: 0;
@@ -64,7 +65,7 @@ body{
     position: fixed;
     width: 8px;
     height: 8px;
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
     border-radius: 50%;
     left: 0;
     top: 0;
@@ -73,3 +74,37 @@ body{
     transition: .15s;
  }
 /*cursor animation*/
+
+/*konten*/
+#tag1 h1{
+    z-index: 1;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: rotate(90deg); 
+    transform-origin: 0 ; 
+    color: rgba(255, 255, 255,0.1);
+    margin-left: 10px;
+}
+#tag2{  
+    margin-left: 60px;
+}
+#nabar a,h1{
+    color: #FFFFFF;
+}
+.logo{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+.row{
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#card{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    min-height: 70px;
+    position: relative;
+}
