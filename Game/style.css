@@ -116,3 +116,9 @@ body{
 .container{
     margin-bottom: 45px;
 }
+#content3{
+    margin-top: 25px;
+}
+#gambar3 img{
+    max-width: 100%;
+}
