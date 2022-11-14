@@ -110,6 +110,7 @@ body{
     display: flex;
     align-items: center; 
     width: 250px;
+    height: max-content;
 }
 .card h3{
     margin-top: 10px;
